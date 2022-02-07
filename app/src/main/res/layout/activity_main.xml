@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnTelefonoMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:isScrollContainer="false"
+        app:icon="@android:drawable/stat_sys_phone_call"
+        app:iconGravity="textStart"
+        app:iconSize="55dp"
+        app:iconTint="#EF4A4A"
+        app:iconTintMode="multiply" />
+
+    <Button
+        android:id="@+id/btnCameraMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:icon="@android:drawable/ic_menu_camera"
+        app:iconGravity="textStart"
+        app:iconSize="80dp"
+        app:iconTint="#ED3E3E" />
+
+    <Button
+        android:id="@+id/btnLocationMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:icon="@android:drawable/ic_menu_mylocation"
+        app:iconGravity="textStart"
+        app:iconSize="80dp"
+        app:iconTint="#F6F334"
+        app:iconTintMode="multiply" />
+</LinearLayout>
